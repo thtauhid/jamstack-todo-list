@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  flex: 1;
+  flex-flow: column wrap;
+}
+
+.container form {
+  display: flex;
+  flex: 1;
+  margin-top: 20px;
+}
+.todo_input {
+  height: 25px;
+  margin-right: 5px;
+  padding: 5px;
+  flex: 0.7;
+  text-align: center;
+  font-size: 18px;
+}
+
+.todo_button {
+  border: none;
+  background-color: rgb(103, 189, 216);
+  cursor: pointer;
+  text-align: center;
+  flex: 0.3;
+  font-size: 18px;
+}
+
+.todo_button:hover {
+  background-color: rgb(64, 184, 221);
+}
+
+.todo_list {
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 20px;
+}
+
+.todo_list hr {
+  padding: 1px;
+  width: 100%;
+  border: none;
+  background-color: #ddd;
+}
+
+.todo_item {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  height: 40px;
+  align-items: flex-end;
+  padding: 15px 5px 0 5px;
+}
+
+.todo_item_cross {
+  cursor: pointer;
+  border: none;
+  background-color: rgb(103, 216, 141);
+  text-align: center;
+  padding: 5px;
+}
